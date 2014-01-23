@@ -1,0 +1,23 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        mavenCentral()
+maven {
+    url 'https://android.googlesource.com/platform/prebuilts/maven_repo/android/+/master'
+    url 'http://repo1.maven.org/maven2/'
+}
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.5.+'
+    }
+}
+dependencies {
+//    compile 'com.android.support:support-v4:18.0.0+'
+//    compile 'javax.inject:javax.inject:1'
+}
+repositories {
+    mavenCentral()
+    maven{
+        url 'http://repo1.maven.org/maven2/'
+    }
+}

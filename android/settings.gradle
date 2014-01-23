@@ -1,0 +1,5 @@
+include ':sample:TriainaSample'
+include ':Injector'
+include ':WebViewBridge'
+include ':Commons'
+include ':lib:HttpClientMultipart'
